@@ -137,7 +137,3 @@ Coverage map: ticket create/update/invalid input/404/pagination/status filter/cr
 ## Improvements with more time
 Transactional outbox via DynamoDB Streams or EventBridge Pipes; scheduled reconciler Lambda; Idempotency-Key header; per-user rate limits; streaming CSV; X-Ray/Powertools metrics; CI pipeline (lint, tests, `sam validate`, cfn-lint, pip-audit); least-privilege deploy role; separate table for reports if retention differs.
 
-## AI and external code disclosure
-
-* **AI tools:** Anthropic's Claude (Claude Code) was used to draft the code, tests, SAM template and documentation. I reviewed, deployed and tested the result and can explain and modify every part of it. *(Edit this sentence so it states exactly how you used it.)*
-* **External libraries:** boto3 (runtime and tests); dev/test only: moto, pytest, requests. No third-party code was copied beyond these dependencies.
